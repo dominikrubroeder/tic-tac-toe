@@ -14,10 +14,6 @@ export default function RootLayout({
       */}
       <head />
       <body className="bg-app-navy-900 text-white">
-        <header>
-          <Logo />
-        </header>
-
         <main className="min-h-screen flex items-center justify-center">
           {children}
         </main>
