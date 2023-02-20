@@ -1,10 +1,16 @@
-export default function Logo() {
+import React from "react";
+
+interface logoProps {
+  className?: string;
+}
+
+const Logo: React.FC<logoProps> = ({ className }) => {
   return (
     <svg
       viewBox="0 0 90 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="h-8 w-auto"
+      className={`h-8 w-auto ${className}`}
     >
       <g id="Logo">
         <path
@@ -24,4 +30,6 @@ export default function Logo() {
       </g>
     </svg>
   );
-}
+};
+
+export default Logo;

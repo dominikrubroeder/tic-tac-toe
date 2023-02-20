@@ -5,7 +5,11 @@ interface ButtonProps {
 }
 
 const Button: React.FC<ButtonProps> = ({ children }) => {
-  return <button className="text-uppercase">{children}</button>;
+  return (
+    <button className="uppercase text-sm text-app-gray-400 bg-app-navy-700 px-4 py-2 rounded-md">
+      {children}
+    </button>
+  );
 };
 
 export default Button;
