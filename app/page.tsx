@@ -1,5 +1,4 @@
 import Logo from "@/components/svg/Logo";
-import Button from "@/components/ui/Button";
 import ArrowCircle from "@/components/svg/ArrowCircle";
 import X from "@/components/svg/X";
 
